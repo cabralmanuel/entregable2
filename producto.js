@@ -1,3 +1,14 @@
+let nombre = prompt ("Por favor ingresa tu nombre");
+alert ("Hola " + nombre);
+let edad = prompt ("Por favor ingresa tu edad");
+alert (edad);
+if (edad > 18) {
+    alert("¡Bienvenido a la tienda!");
+} 
+else if (edad < 18) {
+    alert("Prohibido el ingreso a los menores de edad.")
+}
+
 class producto {
     constructor(Nombre, Origen, Bodega, Marca, Cepa, Año, Tipo, Volumen, Graduacion, Precio) {
         this.Nombre = Nombre;
